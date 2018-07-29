@@ -39,4 +39,12 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
+  $("#amountHelp").text("Today's exchange rate is Rs. 82.50 for every aussie dollar.");
+
+
+  $("#transferForm").submit(function(event) {
+    event.preventDefault();
+    alert("Sorry, we are experience some issues today. Please try again tomorrow.")
+  });
+
 })(jQuery); // End of use strict

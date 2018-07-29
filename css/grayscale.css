@@ -98,7 +98,7 @@
 
 .masthead h1 {
   font-family: 'Varela Round';
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
@@ -109,6 +109,24 @@
 .masthead h2 {
   max-width: 20rem;
   font-size: 1rem;
+}
+
+@media (min-width: 370px) {
+  .masthead h1 {
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 400px) {
+  .masthead h1 {
+    font-size: 2.0rem;
+  }
+}
+
+@media (min-width: 490px) {
+  .masthead h1 {
+    font-size: 2.5rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -171,7 +189,7 @@
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 3rem 0;
 }
 
 .projects-section .featured-text {
